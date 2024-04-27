@@ -71,18 +71,18 @@
             this.pictureBoxG12 = new System.Windows.Forms.PictureBox();
             this.pictureBoxG11 = new System.Windows.Forms.PictureBox();
             this.buttonDown = new System.Windows.Forms.Button();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureRow61 = new System.Windows.Forms.PictureBox();
+            this.pictureRow51 = new System.Windows.Forms.PictureBox();
+            this.pictureRow41 = new System.Windows.Forms.PictureBox();
+            this.pictureRow31 = new System.Windows.Forms.PictureBox();
+            this.pictureRow21 = new System.Windows.Forms.PictureBox();
+            this.pictureRow11 = new System.Windows.Forms.PictureBox();
+            this.pictureRow62 = new System.Windows.Forms.PictureBox();
+            this.pictureRow52 = new System.Windows.Forms.PictureBox();
+            this.pictureRow42 = new System.Windows.Forms.PictureBox();
+            this.pictureRow32 = new System.Windows.Forms.PictureBox();
+            this.pictureRow22 = new System.Windows.Forms.PictureBox();
+            this.pictureRow12 = new System.Windows.Forms.PictureBox();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
@@ -158,18 +158,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow61)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow62)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
@@ -257,7 +257,7 @@
             this.buttonOk.Text = "Готово";
             this.buttonOk.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonOk.UseVisualStyleBackColor = true;
-            this.buttonOk.Click += new System.EventHandler(this.button1_Click);
+            this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             // 
             // pictureBoxG66
             // 
@@ -268,6 +268,7 @@
             this.pictureBoxG66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG66.TabIndex = 105;
             this.pictureBoxG66.TabStop = false;
+            this.pictureBoxG66.Visible = false;
             // 
             // pictureBoxG65
             // 
@@ -278,6 +279,7 @@
             this.pictureBoxG65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG65.TabIndex = 104;
             this.pictureBoxG65.TabStop = false;
+            this.pictureBoxG65.Visible = false;
             // 
             // pictureBoxG64
             // 
@@ -288,6 +290,7 @@
             this.pictureBoxG64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG64.TabIndex = 103;
             this.pictureBoxG64.TabStop = false;
+            this.pictureBoxG64.Visible = false;
             // 
             // pictureBoxG63
             // 
@@ -298,6 +301,7 @@
             this.pictureBoxG63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG63.TabIndex = 102;
             this.pictureBoxG63.TabStop = false;
+            this.pictureBoxG63.Visible = false;
             // 
             // pictureBoxG62
             // 
@@ -308,6 +312,7 @@
             this.pictureBoxG62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG62.TabIndex = 101;
             this.pictureBoxG62.TabStop = false;
+            this.pictureBoxG62.Visible = false;
             // 
             // pictureBoxG61
             // 
@@ -318,6 +323,7 @@
             this.pictureBoxG61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG61.TabIndex = 100;
             this.pictureBoxG61.TabStop = false;
+            this.pictureBoxG61.Visible = false;
             // 
             // pictureBoxG56
             // 
@@ -328,6 +334,7 @@
             this.pictureBoxG56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG56.TabIndex = 99;
             this.pictureBoxG56.TabStop = false;
+            this.pictureBoxG56.Visible = false;
             // 
             // pictureBoxG55
             // 
@@ -338,6 +345,7 @@
             this.pictureBoxG55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG55.TabIndex = 98;
             this.pictureBoxG55.TabStop = false;
+            this.pictureBoxG55.Visible = false;
             // 
             // pictureBoxG54
             // 
@@ -348,6 +356,7 @@
             this.pictureBoxG54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG54.TabIndex = 97;
             this.pictureBoxG54.TabStop = false;
+            this.pictureBoxG54.Visible = false;
             // 
             // pictureBoxG53
             // 
@@ -358,6 +367,7 @@
             this.pictureBoxG53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG53.TabIndex = 96;
             this.pictureBoxG53.TabStop = false;
+            this.pictureBoxG53.Visible = false;
             // 
             // pictureBoxG52
             // 
@@ -368,6 +378,7 @@
             this.pictureBoxG52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG52.TabIndex = 95;
             this.pictureBoxG52.TabStop = false;
+            this.pictureBoxG52.Visible = false;
             // 
             // pictureBoxG51
             // 
@@ -378,6 +389,7 @@
             this.pictureBoxG51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG51.TabIndex = 94;
             this.pictureBoxG51.TabStop = false;
+            this.pictureBoxG51.Visible = false;
             // 
             // pictureBoxG46
             // 
@@ -388,6 +400,7 @@
             this.pictureBoxG46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG46.TabIndex = 93;
             this.pictureBoxG46.TabStop = false;
+            this.pictureBoxG46.Visible = false;
             // 
             // pictureBoxG45
             // 
@@ -398,6 +411,7 @@
             this.pictureBoxG45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG45.TabIndex = 92;
             this.pictureBoxG45.TabStop = false;
+            this.pictureBoxG45.Visible = false;
             // 
             // pictureBoxG44
             // 
@@ -408,6 +422,7 @@
             this.pictureBoxG44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG44.TabIndex = 91;
             this.pictureBoxG44.TabStop = false;
+            this.pictureBoxG44.Visible = false;
             // 
             // pictureBoxG43
             // 
@@ -418,6 +433,7 @@
             this.pictureBoxG43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG43.TabIndex = 90;
             this.pictureBoxG43.TabStop = false;
+            this.pictureBoxG43.Visible = false;
             // 
             // pictureBoxG42
             // 
@@ -428,6 +444,7 @@
             this.pictureBoxG42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG42.TabIndex = 89;
             this.pictureBoxG42.TabStop = false;
+            this.pictureBoxG42.Visible = false;
             // 
             // pictureBoxG41
             // 
@@ -438,6 +455,7 @@
             this.pictureBoxG41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG41.TabIndex = 88;
             this.pictureBoxG41.TabStop = false;
+            this.pictureBoxG41.Visible = false;
             // 
             // pictureBoxG36
             // 
@@ -448,6 +466,7 @@
             this.pictureBoxG36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG36.TabIndex = 87;
             this.pictureBoxG36.TabStop = false;
+            this.pictureBoxG36.Visible = false;
             // 
             // pictureBoxG35
             // 
@@ -458,6 +477,7 @@
             this.pictureBoxG35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG35.TabIndex = 86;
             this.pictureBoxG35.TabStop = false;
+            this.pictureBoxG35.Visible = false;
             // 
             // pictureBoxG34
             // 
@@ -468,6 +488,7 @@
             this.pictureBoxG34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG34.TabIndex = 85;
             this.pictureBoxG34.TabStop = false;
+            this.pictureBoxG34.Visible = false;
             // 
             // pictureBoxG33
             // 
@@ -478,6 +499,7 @@
             this.pictureBoxG33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG33.TabIndex = 84;
             this.pictureBoxG33.TabStop = false;
+            this.pictureBoxG33.Visible = false;
             // 
             // pictureBoxG32
             // 
@@ -488,6 +510,7 @@
             this.pictureBoxG32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG32.TabIndex = 83;
             this.pictureBoxG32.TabStop = false;
+            this.pictureBoxG32.Visible = false;
             // 
             // pictureBoxG31
             // 
@@ -498,6 +521,7 @@
             this.pictureBoxG31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG31.TabIndex = 82;
             this.pictureBoxG31.TabStop = false;
+            this.pictureBoxG31.Visible = false;
             // 
             // pictureBoxG26
             // 
@@ -508,6 +532,7 @@
             this.pictureBoxG26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG26.TabIndex = 81;
             this.pictureBoxG26.TabStop = false;
+            this.pictureBoxG26.Visible = false;
             // 
             // pictureBoxG25
             // 
@@ -518,6 +543,7 @@
             this.pictureBoxG25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG25.TabIndex = 80;
             this.pictureBoxG25.TabStop = false;
+            this.pictureBoxG25.Visible = false;
             // 
             // pictureBoxG24
             // 
@@ -528,6 +554,7 @@
             this.pictureBoxG24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG24.TabIndex = 79;
             this.pictureBoxG24.TabStop = false;
+            this.pictureBoxG24.Visible = false;
             // 
             // pictureBoxG23
             // 
@@ -538,6 +565,7 @@
             this.pictureBoxG23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG23.TabIndex = 78;
             this.pictureBoxG23.TabStop = false;
+            this.pictureBoxG23.Visible = false;
             // 
             // pictureBoxG22
             // 
@@ -548,6 +576,7 @@
             this.pictureBoxG22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG22.TabIndex = 77;
             this.pictureBoxG22.TabStop = false;
+            this.pictureBoxG22.Visible = false;
             // 
             // pictureBoxG21
             // 
@@ -558,6 +587,7 @@
             this.pictureBoxG21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG21.TabIndex = 76;
             this.pictureBoxG21.TabStop = false;
+            this.pictureBoxG21.Visible = false;
             // 
             // pictureBoxG16
             // 
@@ -568,6 +598,7 @@
             this.pictureBoxG16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG16.TabIndex = 75;
             this.pictureBoxG16.TabStop = false;
+            this.pictureBoxG16.Visible = false;
             // 
             // pictureBoxG15
             // 
@@ -578,6 +609,7 @@
             this.pictureBoxG15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG15.TabIndex = 74;
             this.pictureBoxG15.TabStop = false;
+            this.pictureBoxG15.Visible = false;
             // 
             // pictureBoxG14
             // 
@@ -588,6 +620,7 @@
             this.pictureBoxG14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG14.TabIndex = 73;
             this.pictureBoxG14.TabStop = false;
+            this.pictureBoxG14.Visible = false;
             // 
             // pictureBoxG13
             // 
@@ -598,6 +631,7 @@
             this.pictureBoxG13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG13.TabIndex = 72;
             this.pictureBoxG13.TabStop = false;
+            this.pictureBoxG13.Visible = false;
             // 
             // pictureBoxG12
             // 
@@ -608,6 +642,7 @@
             this.pictureBoxG12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG12.TabIndex = 71;
             this.pictureBoxG12.TabStop = false;
+            this.pictureBoxG12.Visible = false;
             // 
             // pictureBoxG11
             // 
@@ -618,6 +653,7 @@
             this.pictureBoxG11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxG11.TabIndex = 70;
             this.pictureBoxG11.TabStop = false;
+            this.pictureBoxG11.Visible = false;
             // 
             // buttonDown
             // 
@@ -633,125 +669,125 @@
             this.buttonDown.UseVisualStyleBackColor = true;
             this.buttonDown.Click += new System.EventHandler(this.buttonDown_Click);
             // 
-            // pictureBox44
+            // pictureRow61
             // 
-            this.pictureBox44.Image = global::ПР3.Properties.Resources.ряд6;
-            this.pictureBox44.Location = new System.Drawing.Point(12, 336);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox44.TabIndex = 68;
-            this.pictureBox44.TabStop = false;
+            this.pictureRow61.Image = global::ПР3.Properties.Resources.ряд6;
+            this.pictureRow61.Location = new System.Drawing.Point(12, 336);
+            this.pictureRow61.Name = "pictureRow61";
+            this.pictureRow61.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow61.TabIndex = 68;
+            this.pictureRow61.TabStop = false;
             // 
-            // pictureBox45
+            // pictureRow51
             // 
-            this.pictureBox45.Image = global::ПР3.Properties.Resources.ряд5;
-            this.pictureBox45.Location = new System.Drawing.Point(12, 285);
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox45.TabIndex = 67;
-            this.pictureBox45.TabStop = false;
+            this.pictureRow51.Image = global::ПР3.Properties.Resources.ряд5;
+            this.pictureRow51.Location = new System.Drawing.Point(12, 285);
+            this.pictureRow51.Name = "pictureRow51";
+            this.pictureRow51.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow51.TabIndex = 67;
+            this.pictureRow51.TabStop = false;
             // 
-            // pictureBox46
+            // pictureRow41
             // 
-            this.pictureBox46.Image = global::ПР3.Properties.Resources.ряд4;
-            this.pictureBox46.Location = new System.Drawing.Point(12, 234);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox46.TabIndex = 66;
-            this.pictureBox46.TabStop = false;
+            this.pictureRow41.Image = global::ПР3.Properties.Resources.ряд4;
+            this.pictureRow41.Location = new System.Drawing.Point(12, 234);
+            this.pictureRow41.Name = "pictureRow41";
+            this.pictureRow41.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow41.TabIndex = 66;
+            this.pictureRow41.TabStop = false;
             // 
-            // pictureBox47
+            // pictureRow31
             // 
-            this.pictureBox47.Image = global::ПР3.Properties.Resources.ряд3;
-            this.pictureBox47.Location = new System.Drawing.Point(12, 183);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox47.TabIndex = 65;
-            this.pictureBox47.TabStop = false;
+            this.pictureRow31.Image = global::ПР3.Properties.Resources.ряд3;
+            this.pictureRow31.Location = new System.Drawing.Point(12, 183);
+            this.pictureRow31.Name = "pictureRow31";
+            this.pictureRow31.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow31.TabIndex = 65;
+            this.pictureRow31.TabStop = false;
             // 
-            // pictureBox48
+            // pictureRow21
             // 
-            this.pictureBox48.Image = global::ПР3.Properties.Resources.ряд2;
-            this.pictureBox48.Location = new System.Drawing.Point(12, 132);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox48.TabIndex = 64;
-            this.pictureBox48.TabStop = false;
+            this.pictureRow21.Image = global::ПР3.Properties.Resources.ряд2;
+            this.pictureRow21.Location = new System.Drawing.Point(12, 132);
+            this.pictureRow21.Name = "pictureRow21";
+            this.pictureRow21.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow21.TabIndex = 64;
+            this.pictureRow21.TabStop = false;
             // 
-            // pictureBox49
+            // pictureRow11
             // 
-            this.pictureBox49.Image = global::ПР3.Properties.Resources.ряд1;
-            this.pictureBox49.Location = new System.Drawing.Point(12, 81);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox49.TabIndex = 63;
-            this.pictureBox49.TabStop = false;
+            this.pictureRow11.Image = global::ПР3.Properties.Resources.ряд1;
+            this.pictureRow11.Location = new System.Drawing.Point(12, 81);
+            this.pictureRow11.Name = "pictureRow11";
+            this.pictureRow11.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow11.TabIndex = 63;
+            this.pictureRow11.TabStop = false;
             // 
-            // pictureBox43
+            // pictureRow62
             // 
-            this.pictureBox43.Image = global::ПР3.Properties.Resources.ряд6;
-            this.pictureBox43.Location = new System.Drawing.Point(415, 336);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox43.TabIndex = 62;
-            this.pictureBox43.TabStop = false;
+            this.pictureRow62.Image = global::ПР3.Properties.Resources.ряд6;
+            this.pictureRow62.Location = new System.Drawing.Point(415, 336);
+            this.pictureRow62.Name = "pictureRow62";
+            this.pictureRow62.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow62.TabIndex = 62;
+            this.pictureRow62.TabStop = false;
             // 
-            // pictureBox42
+            // pictureRow52
             // 
-            this.pictureBox42.Image = global::ПР3.Properties.Resources.ряд5;
-            this.pictureBox42.Location = new System.Drawing.Point(415, 285);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox42.TabIndex = 61;
-            this.pictureBox42.TabStop = false;
+            this.pictureRow52.Image = global::ПР3.Properties.Resources.ряд5;
+            this.pictureRow52.Location = new System.Drawing.Point(415, 285);
+            this.pictureRow52.Name = "pictureRow52";
+            this.pictureRow52.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow52.TabIndex = 61;
+            this.pictureRow52.TabStop = false;
             // 
-            // pictureBox41
+            // pictureRow42
             // 
-            this.pictureBox41.Image = global::ПР3.Properties.Resources.ряд4;
-            this.pictureBox41.Location = new System.Drawing.Point(415, 234);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox41.TabIndex = 60;
-            this.pictureBox41.TabStop = false;
+            this.pictureRow42.Image = global::ПР3.Properties.Resources.ряд4;
+            this.pictureRow42.Location = new System.Drawing.Point(415, 234);
+            this.pictureRow42.Name = "pictureRow42";
+            this.pictureRow42.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow42.TabIndex = 60;
+            this.pictureRow42.TabStop = false;
             // 
-            // pictureBox40
+            // pictureRow32
             // 
-            this.pictureBox40.Image = global::ПР3.Properties.Resources.ряд3;
-            this.pictureBox40.Location = new System.Drawing.Point(415, 183);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox40.TabIndex = 59;
-            this.pictureBox40.TabStop = false;
+            this.pictureRow32.Image = global::ПР3.Properties.Resources.ряд3;
+            this.pictureRow32.Location = new System.Drawing.Point(415, 183);
+            this.pictureRow32.Name = "pictureRow32";
+            this.pictureRow32.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow32.TabIndex = 59;
+            this.pictureRow32.TabStop = false;
             // 
-            // pictureBox39
+            // pictureRow22
             // 
-            this.pictureBox39.Image = global::ПР3.Properties.Resources.ряд2;
-            this.pictureBox39.Location = new System.Drawing.Point(415, 132);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox39.TabIndex = 58;
-            this.pictureBox39.TabStop = false;
+            this.pictureRow22.Image = global::ПР3.Properties.Resources.ряд2;
+            this.pictureRow22.Location = new System.Drawing.Point(415, 132);
+            this.pictureRow22.Name = "pictureRow22";
+            this.pictureRow22.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow22.TabIndex = 58;
+            this.pictureRow22.TabStop = false;
             // 
-            // pictureBox38
+            // pictureRow12
             // 
-            this.pictureBox38.Image = global::ПР3.Properties.Resources.ряд1;
-            this.pictureBox38.Location = new System.Drawing.Point(415, 81);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(91, 45);
-            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox38.TabIndex = 57;
-            this.pictureBox38.TabStop = false;
+            this.pictureRow12.Image = global::ПР3.Properties.Resources.ряд1;
+            this.pictureRow12.Location = new System.Drawing.Point(415, 81);
+            this.pictureRow12.Name = "pictureRow12";
+            this.pictureRow12.Size = new System.Drawing.Size(91, 45);
+            this.pictureRow12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureRow12.TabIndex = 57;
+            this.pictureRow12.TabStop = false;
             // 
             // pictureBox32
             // 
@@ -1179,18 +1215,18 @@
             this.Controls.Add(this.pictureBoxG12);
             this.Controls.Add(this.pictureBoxG11);
             this.Controls.Add(this.buttonDown);
-            this.Controls.Add(this.pictureBox44);
-            this.Controls.Add(this.pictureBox45);
-            this.Controls.Add(this.pictureBox46);
-            this.Controls.Add(this.pictureBox47);
-            this.Controls.Add(this.pictureBox48);
-            this.Controls.Add(this.pictureBox49);
-            this.Controls.Add(this.pictureBox43);
-            this.Controls.Add(this.pictureBox42);
-            this.Controls.Add(this.pictureBox41);
-            this.Controls.Add(this.pictureBox40);
-            this.Controls.Add(this.pictureBox39);
-            this.Controls.Add(this.pictureBox38);
+            this.Controls.Add(this.pictureRow61);
+            this.Controls.Add(this.pictureRow51);
+            this.Controls.Add(this.pictureRow41);
+            this.Controls.Add(this.pictureRow31);
+            this.Controls.Add(this.pictureRow21);
+            this.Controls.Add(this.pictureRow11);
+            this.Controls.Add(this.pictureRow62);
+            this.Controls.Add(this.pictureRow52);
+            this.Controls.Add(this.pictureRow42);
+            this.Controls.Add(this.pictureRow32);
+            this.Controls.Add(this.pictureRow22);
+            this.Controls.Add(this.pictureRow12);
             this.Controls.Add(this.pictureBox32);
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.pictureBox34);
@@ -1270,18 +1306,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow61)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRow12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
@@ -1365,18 +1401,18 @@
         private System.Windows.Forms.PictureBox pictureBox35;
         private System.Windows.Forms.PictureBox pictureBox36;
         private System.Windows.Forms.PictureBox pictureBox37;
-        private System.Windows.Forms.PictureBox pictureBox38;
-        private System.Windows.Forms.PictureBox pictureBox39;
-        private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.PictureBox pictureBox43;
-        private System.Windows.Forms.PictureBox pictureBox44;
-        private System.Windows.Forms.PictureBox pictureBox45;
-        private System.Windows.Forms.PictureBox pictureBox46;
-        private System.Windows.Forms.PictureBox pictureBox47;
-        private System.Windows.Forms.PictureBox pictureBox48;
-        private System.Windows.Forms.PictureBox pictureBox49;
+        private System.Windows.Forms.PictureBox pictureRow12;
+        private System.Windows.Forms.PictureBox pictureRow22;
+        private System.Windows.Forms.PictureBox pictureRow32;
+        private System.Windows.Forms.PictureBox pictureRow42;
+        private System.Windows.Forms.PictureBox pictureRow52;
+        private System.Windows.Forms.PictureBox pictureRow62;
+        private System.Windows.Forms.PictureBox pictureRow61;
+        private System.Windows.Forms.PictureBox pictureRow51;
+        private System.Windows.Forms.PictureBox pictureRow41;
+        private System.Windows.Forms.PictureBox pictureRow31;
+        private System.Windows.Forms.PictureBox pictureRow21;
+        private System.Windows.Forms.PictureBox pictureRow11;
         public System.Windows.Forms.Button buttonDown;
         private System.Windows.Forms.PictureBox pictureBoxG16;
         private System.Windows.Forms.PictureBox pictureBoxG15;
